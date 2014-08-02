@@ -1,0 +1,68 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'backbone-marionette' ]
+2 info using npm@1.4.3
+3 info using node@v0.10.26
+4 warn package.json marionette@0.0.0 No repository field.
+5 verbose readDependencies using package.json deps
+6 verbose cache add [ 'backbone-marionette', null ]
+7 verbose cache add name=undefined spec="backbone-marionette" args=["backbone-marionette",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: 'backbone-marionette',
+8 verbose parsed url   path: 'backbone-marionette',
+8 verbose parsed url   href: 'backbone-marionette' }
+9 silly lockFile 561e18ac-backbone-marionette backbone-marionette
+10 verbose lock backbone-marionette /Users/williamjohnson/.npm/561e18ac-backbone-marionette.lock
+11 silly lockFile 561e18ac-backbone-marionette backbone-marionette
+12 silly lockFile 561e18ac-backbone-marionette backbone-marionette
+13 verbose addNamed [ 'backbone-marionette', '' ]
+14 verbose addNamed [ null, '*' ]
+15 silly lockFile 36f76330-backbone-marionette backbone-marionette@
+16 verbose lock backbone-marionette@ /Users/williamjohnson/.npm/36f76330-backbone-marionette.lock
+17 silly addNameRange { name: 'backbone-marionette', range: '*', hasData: false }
+18 verbose url raw backbone-marionette
+19 verbose url resolving [ 'https://registry.npmjs.org/', './backbone-marionette' ]
+20 verbose url resolved https://registry.npmjs.org/backbone-marionette
+21 info trying registry request attempt 1 at 00:34:24
+22 http GET https://registry.npmjs.org/backbone-marionette
+23 http 404 https://registry.npmjs.org/backbone-marionette
+24 silly registry.get cb [ 404,
+24 silly registry.get   { date: 'Sat, 02 Aug 2014 07:34:24 GMT',
+24 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+24 silly registry.get     'content-type': 'application/json',
+24 silly registry.get     'cache-control': 'max-age=0',
+24 silly registry.get     'content-length': '52',
+24 silly registry.get     'accept-ranges': 'bytes',
+24 silly registry.get     via: '1.1 varnish',
+24 silly registry.get     age: '0',
+24 silly registry.get     'x-served-by': 'cache-sjc3134-SJC',
+24 silly registry.get     'x-cache': 'MISS',
+24 silly registry.get     'x-cache-hits': '0',
+24 silly registry.get     'x-timer': 'S1406964864.410040,VS0,VE142',
+24 silly registry.get     'keep-alive': 'timeout=10, max=50',
+24 silly registry.get     connection: 'Keep-Alive' } ]
+25 silly lockFile 36f76330-backbone-marionette backbone-marionette@
+26 silly lockFile 36f76330-backbone-marionette backbone-marionette@
+27 error 404 'backbone-marionette' is not in the npm registry.
+27 error 404 You should bug the author to publish it
+27 error 404 It was specified as a dependency of 'backbone-marionette-gulp-seed'
+27 error 404
+27 error 404 Note that you can also install from a
+27 error 404 tarball, folder, or http url, or git url.
+28 error System Darwin 13.3.0
+29 error command "/usr/local/bin/node" "/usr/local/bin/npm" "install" "backbone-marionette"
+30 error cwd /Users/williamjohnson/Desktop/Omnibus/backbone-marionette-gulp-seed
+31 error node -v v0.10.26
+32 error npm -v 1.4.3
+33 error code E404
+34 verbose exit [ 1, true ]
