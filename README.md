@@ -1,10 +1,19 @@
-# backbone-marionette-gulp-seed
+test-stack-frontend
+===================
+
+
+
+Experimenting with our unit testing, code coverage, and continuous integration stack
+
+## Install
+
+1. Clone the repo.
+2. Run `npm install` and `bower install`
+3. Gulp
+4. Dance
+
 
 This is a sample Todos seed application using Backbone.js, Marionette.js, Twitter Bootstrap 3, Stylus, Jade and Coffeescript all bundled with Gulp.js
-
-## Demo
-
-http://iampeter.github.io/backbone-marionette-gulp-seed-demo/
 
 ## Features
 
